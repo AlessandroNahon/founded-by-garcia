@@ -1,0 +1,127 @@
+@font-face {
+	font-family: 'Muli Light';
+	src: url('fonts/light/Muli-Light.eot');
+	src: url('fonts/light/Muli-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/light/Muli-Light.woff') format('woff'),
+		url('fonts/light/Muli-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muli Regular';
+	src: url('fonts/regular/Muli-SemiBold.eot');
+	src: url('fonts/regular/Muli-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/regular/Muli-SemiBold.woff') format('woff'),
+		url('fonts/regular/Muli-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muli Extra Light';
+	src: url('fonts/extra-light/Muli-ExtraLight.eot');
+	src: url('fonts/extra-light/Muli-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('fonts/extra-light/Muli-ExtraLight.woff') format('woff'),
+		url('fonts/extra-light/Muli-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	&:hover {
+		color: #000;
+	}
+}
+
+/* paragraphs */
+
+p {
+	line-height: 1.5;
+}
+
+/*blockquotes*/
+
+blockquote {
+	background: #F7F7F7;
+	margin: 0;
+	padding: 20px;
+	p {
+		margin-top: 0;
+	}
+}
+
+/*tables*/
+
+table {
+	td {
+		padding: 10px;
+	}
+	tr td:first {
+		padding-right: 0;
+	}
+}
+
+/*def lists*/
+
+dt {
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+dd {
+	padding: 10px;
+	margin-left: 10px;
+}
+
+/*lists*/
+
+ul li, ol li {
+	padding: 3px;
+}
+
+/*PRE*/
+
+pre {
+	background: #F7F7F7;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+
+/*
+====================================
+Global Classes / Wordpress Specific
+====================================
+*/
+
+.aligncenter {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+img {
+	&.alignleft {
+		padding-right: 5px;
+	}
+	&.alignright {
+		padding-left: 5px;
+	}
+}
+
+.clear {
+	width: 100%;
+	float: left;
+	clear: both;
+}
